@@ -7,7 +7,7 @@ background-image: url(/images/empty_tomb11.jpg.webp);
 background-position: 0;
 background-repeat: no-repeat;
 background-size: cover;
-height: 70vh;
+height: 100vh;
 justify-content: center;
 border: 40px;
 }
@@ -28,14 +28,14 @@ border: 40px;
     font-weight: bold;
     font-size: 50px;;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 60px;
     justify-content: center;
 }
 .navigation {
    background-color:bisque;
    padding: 10px;
    font-size: 20px;
-   
+   border-top: 10px solid black;
 }
 .navigation ul {
     display: flex;
@@ -52,9 +52,16 @@ border: 40px;
     padding: 20px;
     text-decoration: none;
 }
+.IsraelT {
+    font-size: 30px;
+    color: rgb(90, 87, 54);
+    font-weight: bold;
+    text-align: center;
+}
 body {
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    background-color: rgb(210, 159, 98);
 }
 .ThingsTD {
     font-size: 50px;
@@ -79,4 +86,12 @@ body {
 }
 h3 {
     color:  rgb(90, 87, 54);
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    padding: 20px;
 }
